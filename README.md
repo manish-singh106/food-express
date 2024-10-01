@@ -1,0 +1,11 @@
+## App contains these sections
+- Header
+  - appLoog
+  - Home
+  - Login/logou
+  - ContactUS
+- Body
+  - Serach filter
+  - Restaurant cards
+- Footer
+  - AboutUS
