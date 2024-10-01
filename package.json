@@ -1,0 +1,11 @@
+{
+  "name": "foodexpress",
+  "version": "1.0.0",
+  "description": "This is food delivery app by Manish Singh",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Manish Singh",
+  "license": "ISC"
+}
