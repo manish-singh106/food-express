@@ -4,8 +4,17 @@
   "description": "This is food delivery app by Manish Singh",
   "main": "index.js",
   "scripts": {
+    "start": "npx parcel index.html",
     "test": "jest"
   },
   "author": "Manish Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
 }

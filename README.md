@@ -2,8 +2,9 @@
 - Header
   - appLoog
   - Home
-  - Login/logou
+  - Login/logout
   - ContactUS
+  - Cart
 - Body
   - Serach filter
   - Restaurant cards
