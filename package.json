@@ -2,10 +2,11 @@
   "name": "foodexpress",
   "version": "1.0.0",
   "description": "This is food delivery app by Manish Singh",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "npx parcel index.html",
-    "test": "jest"
+    "test": "jest",
+    "build": "npx parcel build index.html"
   },
   "author": "Manish Singh",
   "license": "ISC",
