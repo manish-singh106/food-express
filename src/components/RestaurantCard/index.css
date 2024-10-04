@@ -1,0 +1,16 @@
+.res-card {
+  width: 200px; 
+  height: 250px;  
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.res-image> img{
+    margin: 10px;
+    height: 100px;
+    width: 90%;
+} 
+
+.resInfo{
+    margin: 10px;
+}
