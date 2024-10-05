@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npx parcel public/index.html",
     "test": "jest",
-    "build:parcel": "npx parcel build public/index.html",
+    "build:parcel": "parcel build public/index.html",
     "build": "npm run clean && npm run build:parcel",
     "clean": "rm -rf dist/*"  
 
