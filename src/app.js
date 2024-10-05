@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
-import Header from './src/components/Header/Header';
-import Restaurants from './src/components/Restaurants/Restaurants';
+import Header from './components/Header/Header';
+import Restaurants from './components/Restaurants/Restaurants';
 
 const App = () => {
   return (

@@ -1,16 +1,33 @@
 .res-card {
+  justify-content: space-between;
   width: 200px; 
-  height: 250px;  
-  margin: 20px;
+  height: 270px;  
+  margin: 10px;
   background-color: #f0f0f0;
+  border-radius: 5px
+}
+
+.res-card:hover {
+box-shadow: 0 5px 10px rgba(7, 7, 7, 0.5);
+cursor: pointer;
 }
 
 .res-image> img{
-    margin: 10px;
+   margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 100px;
     width: 90%;
+    border-radius: 5px
+
+
 } 
 
 .resInfo{
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.res-name{
+  font-size: large;
+  font-weight: bold;  
 }

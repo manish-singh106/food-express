@@ -1,4 +1,19 @@
+
+
 .restaurants{
+  margin: 10px;  
+}
+
+.search-res{
+    /* width: 50%;
+    margin: auto; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.restaurant-container{ 
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
 }

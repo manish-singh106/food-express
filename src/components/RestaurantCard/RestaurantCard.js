@@ -9,9 +9,9 @@ export const RestaurantCard = ({resData}) =>{
         <img src = {SWIGGY_IMG_CDN_URL+cloudinaryImageId}></img>
       </div>
       <div className="resInfo">
-        <div>{name}</div>
+        <div className="res-name">{name}</div> 
         <div>⭐{avgRatingString}.{sla.slaString}</div>
-        <div>{cuisines.join(' ')}</div>
+        <div>{cuisines.join(', ')}</div>
         <div>{costForTwo}</div>
         <div>{areaName}, {locality} </div>
       </div>
