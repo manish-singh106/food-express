@@ -1,0 +1,54 @@
+
+.contact-us {
+    margin-top: 40px;
+    width: 40%;
+    background-color: #f0f0f0;
+    text-align: center; 
+    margin-inline: auto;
+    height: 300px;
+    
+}
+
+.name { 
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    /* margin-top: 20px; */
+}
+.name > input {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+
+.contact-info { 
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+        /* margin-top: 20px; */
+}
+.contact-info > input {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    
+}
+
+
+.message > textarea{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 460px;
+    height: 80px;
+    /* rows:10; */
+}
+
+.submit {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+

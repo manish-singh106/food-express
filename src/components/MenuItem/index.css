@@ -1,0 +1,22 @@
+
+
+.menu-item-container{
+  width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 10px auto;
+	height: 150px;
+	/* margin-bottom: 10px; */
+
+}
+
+.menu-image > img{
+	height: auto;
+	width: 150px;
+}
+
+.menu-info{
+	background-color: #f0f0f0;
+	margin: 5px;
+}

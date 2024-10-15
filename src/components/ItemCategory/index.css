@@ -1,0 +1,20 @@
+.acc-header1 {
+  background-color: #f0f0f0;  
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center vertically */
+  margin: 10px;
+  padding: 10px;
+}
+
+.acc-header{
+  background-color: #f0f0f0;  
+  width: 50%;
+  margin: 10px auto; /* Center the div */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between ;
+  /* text-align: center;  */
+
+}

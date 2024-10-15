@@ -32,6 +32,7 @@
 }
 .header-nav>ul>li:hover{
   cursor: pointer;
-  box-shadow: 0 5px 10px rgba(7, 7, 7, 0.5)  
+  /* box-shadow: 0 5px 10px rgba(7, 7, 7, 0.5)   */
+  color: orangered;
 }
 
