@@ -7,18 +7,20 @@ import ItemCategory from "../ItemCategory/ItemCategory";
 
 
 const RestaurantMenu = () => {
+  const [showItem, setShowItem] = useState(false)
   const { resid } = useParams();
   const [menuData, setMenuData] = useState([]);
 console.log("resid===>",resid)
 
 
 const fetchMenuData = async ( ) => {
+
   // console.log("FETCH_RESTAURANT_MENU+resid->",FETCH_RESTAURANT_MENU+resid)
   const result = await fetch(FETCH_RESTAURANT_MENU+resid);
     const menuData = await result.json();
     setMenuData(menuData)
    
-}
+  }
 
   useEffect(()=>{
     
@@ -37,14 +39,15 @@ const fetchMenuData = async ( ) => {
   return (
     <div className="menu-container">
       <div className="resname">
-        <h2>{resName}</h2>
+        <h1>{resName}</h1>
       </div>
-      {menuCategoryList.map((itemCategory)=>(
-        <ItemCategory category = {itemCategory}/>
-        // <div className="item-category">{itemCategory.card.card.title}</div>
+      {menuCategoryList.map((itemCategory, index)=>(
+        <ItemCategory category = {itemCategory} showItem = {showItem === index} setShowItem = {()=> setShowItem(index)} index = {index}/>
       ))}
     </div>
   );
+
+
 };
 
 export default RestaurantMenu;

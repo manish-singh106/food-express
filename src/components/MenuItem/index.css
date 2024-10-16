@@ -1,22 +1,45 @@
 
 
 .menu-item-container{
-  width: 50%;
+  width: 60%;
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-	margin: 10px auto;
+	margin: 5px auto;
 	height: 150px;
+	border-bottom: 1px solid black;
 	/* margin-bottom: 10px; */
 
 }
 
 .menu-image > img{
-	height: auto;
+	height: 90%;
 	width: 150px;
+	border-radius: 20px;
+	/* margin: 5px; */
+	margin-top: 5px;
+	/* display: flex; */
+
 }
 
 .menu-info{
 	background-color: #f0f0f0;
 	margin: 5px;
+	width: 80%;
+
+}
+
+.menu-image > button{
+	position: absolute;
+	margin-top: 125px;
+	margin-left: 60px;
+	/* padding: 10px 20px 20px 10px; */
+	border-radius:5px;
+	box-shadow: 0 5px 10px rgba(7, 7, 7, 0.5);
+	/* align-content: center; */
+	
+}
+
+.menu-image{
+	display: flex;
 }

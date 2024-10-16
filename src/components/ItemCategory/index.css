@@ -10,11 +10,13 @@
 
 .acc-header{
   background-color: #f0f0f0;  
-  width: 50%;
+  width: 60%;
   margin: 10px auto; /* Center the div */
   padding: 10px;
   display: flex;
   justify-content: space-between ;
+  font-size: large;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
   /* text-align: center;  */
 
 }
