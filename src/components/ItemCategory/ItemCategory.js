@@ -5,17 +5,18 @@ const ItemCategory = ({category, showItem, setShowItem, index})=>{
   // console.log("category---> >",category)
   // const {name} = category.card.info;
   // console.log("length>",category.card.card.itemCards.length)
+  const toggleAccordian = ()=>{
+    setShowItem( )
+  }
+
    return (
     <div className="acc">
-      <div className='acc-header' onClick = {()=>setShowItem()}>
+      <div className='acc-header' onClick = {()=>toggleAccordian(index)}>
         <span>{category.card.card.title} {(category.card.card.itemCards.length)}</span>
         <span>*</span>
       </div>
       {console.log(showItem)}
       {showItem && <MenuItem itemCards = {category.card.card.itemCards}/>}
-      {/* {category.card.card.itemCards.map((menuItem) => (
-        {showItem && <MenuItem menuItem = {menuItem}/>}
-      ))} */}
 
     </div>
    ) 

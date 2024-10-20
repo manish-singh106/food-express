@@ -1,12 +1,21 @@
-// import { SWIGGY_IMG_CDN_URL } from '../../utills/constants';
-// import { SWIGGY_IMG_CDN_URL } from "../../utills/constants";
+import { useDispatch } from 'react-redux';
+import { addItems } from '../../reduxToolkit/cart/cartSlice';
 import { MENU_ITEM_CDN_URL } from '../../utills/constants'
 import './index.css';
+
+
+
+
+
 const MenuItem = ({ itemCards }) => {
   console.log("menuItem->", itemCards);
   // const {name, price, description, imageId, ratings} = menuItem.card.info;
   // console.log("--->imageurl",MENU_ITEM_CDN_URL+imageId)
   // {itemCards.map((menuItem)=>())}
+  const dispatch = useDispatch();
+  const addToCart = (info) =>{
+    dispatch(addItems(info))
+  }
   return (
     <div>
       {itemCards.map((menuItem)=>(
@@ -22,7 +31,7 @@ const MenuItem = ({ itemCards }) => {
           </div>
          <div className="menu-image">
             <img src = {MENU_ITEM_CDN_URL+menuItem.card.info.imageId}></img>
-            <button className='add-btn'>ADD</button>
+            <button className='add-btn' onClick = {()=>{addToCart({...menuItem.card.info, resName: menuItem.card.info.name})}}>ADD</button>
          </div>
          </div>
       ))}

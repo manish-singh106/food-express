@@ -6,7 +6,7 @@
 	justify-content: space-between;
 	align-content: center;
 	margin: 5px auto;
-	height: 150px;
+	/* height: 180px; */
 	border-bottom: 1px solid black;
 	/* margin-bottom: 10px; */
 
@@ -26,7 +26,11 @@
 	background-color: #f0f0f0;
 	margin: 5px;
 	width: 80%;
+	/* height: 10px; */
+}
 
+.menu-info > div{
+	margin-bottom: 10px;
 }
 
 .menu-image > button{

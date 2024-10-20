@@ -42,7 +42,7 @@ const fetchMenuData = async ( ) => {
         <h1>{resName}</h1>
       </div>
       {menuCategoryList.map((itemCategory, index)=>(
-        <ItemCategory category = {itemCategory} showItem = {showItem === index} setShowItem = {()=> setShowItem(index)} index = {index}/>
+        <ItemCategory category = {itemCategory} showItem = {showItem === index} setShowItem = {()=> setShowItem(showItem === index? -1: index)} index = {index}/>
       ))}
     </div>
   );
